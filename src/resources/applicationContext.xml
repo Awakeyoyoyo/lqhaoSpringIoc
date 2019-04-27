@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <!--<bean name="A" class="com.awakeyoyoyo.bean.A">-->
+            <!--<property name="name" value="Lqhao"></property>-->
+    <!--</bean>-->
+
+    <!--<bean name="B" class="com.awakeyoyoyo.bean.B" scope="prototype">-->
+        <!--<property name="a" ref="A"></property>-->
+        <!--<property name="age" value="13"></property>-->
+    <!--</bean>-->
+    <bean name="A" class="com.awakeyoyoyo.bean.A">
+        <property name="name" value="Jason"></property>
+        <property name="b" ref="B"></property>
+    </bean>
+
+    <bean name="B" class="com.awakeyoyoyo.bean.B" scope="prototype">
+        <property name="age" value="13"></property>
+    </bean>
+
+</beans>
